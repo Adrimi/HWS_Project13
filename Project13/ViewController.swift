@@ -44,6 +44,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         currentFilter.setValue(beginImage, forKey: kCIInputImageKey)
         applyProcessing()
     }
+    
 
     @IBAction func changeFilter(_ sender: UIButton) {
         let ac = UIAlertController(title: "Coose Filter", message: nil, preferredStyle: .actionSheet)
